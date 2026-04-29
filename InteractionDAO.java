@@ -40,6 +40,11 @@ public class InteractionDAO {
         return result;
     }
 
+    public int getMax()
+    {
+        return 555;
+    }
+
     public ArrayList<String[]> getAllInteractionsForDrug(int drugId) {
         ArrayList<String[]> interactions = new ArrayList<>();
         Connection con = null;
