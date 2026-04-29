@@ -12,7 +12,7 @@ public interface Checkable {
         if (checkSafety()) {
             return "SAFE";
         } else {
-            return "UNSAFE - " + getWarnings();
+            return "UNSAFE  " + getWarnings();
         }
     }
 }
