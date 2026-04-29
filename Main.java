@@ -25,6 +25,16 @@ public class Main {
         });
     }
 
+    public int getMax()
+    {
+        return 555;
+    }
+
+    public boolean getwhy()
+    {
+        return true;
+    }
+
     private static void testDatabaseConnection() {
         System.out.println("Testing database connection...");
         try {
