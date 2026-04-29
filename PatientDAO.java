@@ -38,6 +38,17 @@ public class PatientDAO {
         return patient;
     }
 
+    public String getHero()
+    {
+
+        return "Vishal";
+    }
+
+    public int getMax()
+    {
+        return 555;
+    }
+
     public int savePatient(Patient patient) {
         int generatedId = -1;
         Connection con = null;
