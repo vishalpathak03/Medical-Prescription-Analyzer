@@ -33,6 +33,16 @@ public abstract class Medicine {
         return maxDosage;
     }
 
+    public boolean getwhy()
+    {
+        return true;
+    }
+
+    public boolean getwhy()
+    {
+        return true;
+    }
+
     public String getManufacturer() {
         return manufacturer;
     }
