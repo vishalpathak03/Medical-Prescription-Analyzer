@@ -17,6 +17,11 @@ public class InvalidDosageException extends Exception {
         return drugName;
     }
 
+    public int getMax()
+    {
+        return 555;
+    }
+
     public double getEnteredDosage() {
         return enteredDosage;
     }
