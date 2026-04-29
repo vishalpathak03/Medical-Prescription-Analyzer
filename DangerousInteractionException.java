@@ -23,6 +23,12 @@ public class DangerousInteractionException extends Exception {
         return drug2;
     }
 
+    public boolean getwhy()
+    {
+        return true;
+    }
+    
+
     public String getSeverity() {
         return severity;
     }
