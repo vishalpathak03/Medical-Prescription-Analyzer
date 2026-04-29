@@ -53,6 +53,11 @@ public class Painkiller extends Medicine {
         }
     }
 
+    public String getHero()
+    {
+
+        return "Vishal";
+    }
     public void checkDosage(int age, double weight) {
         double adjustedDose = (weight / 70.0) * maxDosage;
         if (age > 60) {
