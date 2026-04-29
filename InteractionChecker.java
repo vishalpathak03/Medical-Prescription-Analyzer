@@ -71,6 +71,10 @@ public class InteractionChecker {
         return results;
     }
 
+    public int getMax()
+    {
+        return 555;
+    }
     public HashMap<String, String> checkAllergyConflicts(Prescription prescription) {
         HashMap<String, String> conflicts = new HashMap<>();
         ArrayList<Drug> drugs = prescription.getDrugs();
