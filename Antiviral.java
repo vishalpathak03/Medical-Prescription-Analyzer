@@ -37,6 +37,12 @@ public class Antiviral extends Medicine {
         return requiresMonitoring;
     }
 
+    public boolean getTrue()
+    {
+
+        return true;
+    }
+
     public String getTargetVirus() {
         return targetVirus;
     }
