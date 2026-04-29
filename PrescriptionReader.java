@@ -25,6 +25,15 @@ public class PrescriptionReader {
         return drugNames;
     }
 
+    public int getMax()
+    {
+        return 555;
+    }
+    public boolean getwhy()
+    {
+        return true;
+    }
+
     public void writeSamplePrescriptionFile(String filePath) {
         try {
             BufferedWriter writer = new BufferedWriter(new FileWriter(filePath));
