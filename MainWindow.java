@@ -116,6 +116,16 @@ public class MainWindow extends JFrame {
         return panel;
     }
 
+    public boolean getwhy()
+    {
+        return true;
+    }
+
+    public boolean getwhy()
+    {
+        return true;
+    }
+
     private JPanel buildCenterPanel() {
         JPanel panel = new JPanel(new GridLayout(1, 2, 10, 0));
         panel.setBorder(BorderFactory.createEmptyBorder(5, 10, 5, 10));
