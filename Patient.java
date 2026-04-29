@@ -28,6 +28,12 @@ public class Patient {
         this.allergies = allergies;
     }
 
+    public String getHero()
+    {
+
+        return "Vishal";
+    }
+
     public static Patient readFromConsole() {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter patient name: ");
