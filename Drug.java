@@ -49,6 +49,11 @@ public class Drug {
         this.category = category;
     }
 
+    public boolean getwhy()
+    {
+        return true;
+    }
+
     public double getMaxDosage() {
         return maxDosage;
     }
