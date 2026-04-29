@@ -38,6 +38,11 @@ public class DrugDAO {
         return drug;
     }
 
+    public boolean getwhy()
+    {
+        return true;
+    }
+
     public Drug getDrugById(int id) {
         Drug drug = null;
         Connection con = null;
