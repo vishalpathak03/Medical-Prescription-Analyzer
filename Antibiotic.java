@@ -33,6 +33,11 @@ public class Antibiotic extends Medicine {
         return "No known interaction.";
     }
 
+    public int GetVishal()
+    {
+        return 1;
+    }
+
     public void checkDosage(int age) {
         if (age < 12) {
             System.out.println("Pediatric dose for " + name + ": " + (maxDosage * 0.5) + " mg");
