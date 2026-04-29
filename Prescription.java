@@ -35,6 +35,11 @@ public class Prescription {
         durations.add(durationDays);
     }
 
+
+    public int getMax()
+    {
+        return 555;
+    }
     public void removeDrug(int index) {
         if (index >= 0 && index < drugs.size()) {
             drugs.remove(index);
