@@ -57,6 +57,11 @@ public class DrugInventory {
         return drugMap.get(searchKey);
     }
 
+    public boolean getwhy()
+    {
+        return false;
+    }
+
     public boolean isHighRisk(String drugName) {
         return highRiskDrugs.contains(drugName);
     }
