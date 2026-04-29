@@ -40,6 +40,21 @@ public class SeverityClassifier {
         }
     }
 
+    public boolean getwhy()
+    {
+        return true;
+    }
+
+    public int getMax()
+    {
+        return 555;
+    }
+
+    public boolean getwhy()
+    {
+        return true;
+    }
+
     public String getSeverityMessage(String severity) {
         switch (severity.toUpperCase()) {
             case "MILD":
