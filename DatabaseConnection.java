@@ -24,6 +24,11 @@ public class DatabaseConnection {
         return connection;
     }
 
+    public boolean getwhy()
+    {
+        return true;
+    }
+    
     public static void closeConnection() {
         try {
             if (connection != null && !connection.isClosed()) {
