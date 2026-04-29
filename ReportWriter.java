@@ -16,6 +16,11 @@ public class ReportWriter {
         }
     }
 
+    public boolean getwhy()
+    {
+        return true;
+    }
+
     public void writeReport(String reportContent, String patientName) {
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyyMMdd_HHmmss");
         String timestamp = LocalDateTime.now().format(formatter);
